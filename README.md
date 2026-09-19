@@ -20,8 +20,6 @@
 - 🛰️ Field Mapper
 - 🌦️ Precision Weather
 - 
-## 📊 Estatísticas
+## 📈 Contribuições
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=geanbranco26&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=geanbranco26&layout=compact&theme=tokyonight)
+![Snake](https://raw.githubusercontent.com/geanbranco26/geanbranco26/output/github-contribution-grid-snake.svg)
