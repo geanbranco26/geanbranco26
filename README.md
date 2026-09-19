@@ -22,6 +22,6 @@
 - 
 ## 📊 Estatísticas
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=geanbranco26&show_icons=true&theme=transparent)
+![GitHub Stats](./profile/stats.svg)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geanbranco26&layout=compact&theme=transparent)
+![Top Languages](./profile/top-langs.svg)
