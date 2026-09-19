@@ -22,6 +22,6 @@
 - 
 ## 📊 Estatísticas
 
-![GitHub Stats](./profile/stats.svg)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=geanbranco26&show_icons=true&theme=tokyonight)
 
-![Top Languages](./profile/top-langs.svg)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=geanbranco26&layout=compact&theme=tokyonight)
