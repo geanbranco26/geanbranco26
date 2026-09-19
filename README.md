@@ -19,11 +19,9 @@
 
 - 🛰️ Field Mapper
 - 🌦️ Precision Weather
-
+- 
 ## 📊 Estatísticas
 
-## 📊 Estatísticas
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=geanbranco26&show_icons=true&cache_seconds=86400)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=geanbranco26&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geanbranco26&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geanbranco26&layout=compact&cache_seconds=86400)
