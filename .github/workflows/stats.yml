@@ -1,0 +1,16 @@
+name: GitHub Stats
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: geanbranco26
+          template: classic
+          base: header, repositories, metadata
+          filename: github-metrics.svg
