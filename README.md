@@ -1,4 +1,6 @@
-# Olá, eu sou Gean Branco 👋
+<p align="center">
+  <img src="LINK_RAW_DA_SUA_IMAGEM" width="100%" />
+</p>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
