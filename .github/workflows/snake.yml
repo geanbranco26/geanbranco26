@@ -9,9 +9,11 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -20,10 +22,22 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish Snake
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin output || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git checkout -B output origin/output
+          else
+            git checkout --orphan output
+          fi
+
+          git rm -rf . || true
+          cp -R dist/. .
+
+          git add .
+          git commit -m "Update contribution snake" || true
+          git push origin output --force
